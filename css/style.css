@@ -39,7 +39,7 @@ a {
 
   color: var(--primery-color);
 }
-.button-header {
+.btn {
   padding: 12px 28px;
 
   cursor: pointer;
@@ -51,7 +51,23 @@ a {
   background-color: transparent;
   border: none;
 }
-.button-header:hover,
-.button-header:focus {
+.btn:hover,
+.btn:focus {
   background-color: var(--accent-color);
+}
+
+.hero-title {
+  font-weight: 500;
+  font-size: 50px;
+  line-height: 1.4;
+  color: var(--white-color);
+}
+.point {
+  color: var(--accent-color);
+}
+
+.hero-text {
+  font-size: 18px;
+  line-height: 1.66;
+  color: var(--primery-color);
 }
