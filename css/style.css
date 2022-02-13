@@ -3,6 +3,10 @@
   --body-background: #1e252b;
   --primery-color: rgba(255, 255, 255, 0.55);
   --accent-color: #ff6e30;
+  --subtitle-main-color:rgba(255, 255, 255, 0.78);
+  --tools-name-color: #FFA537;
+  --btn-color: #fdf5ff;
+
 }
 
 .trust {
@@ -70,4 +74,66 @@ a {
   font-size: 18px;
   line-height: 1.66;
   color: var(--primery-color);
+}
+
+.tools-title {
+  font-weight: 500;
+font-size: 48px;
+line-height: 1.3;
+text-align: center;
+color: var(--white-color);
+}
+
+.tools-text {
+font-weight: 500;
+font-size: 18px;
+line-height: 1.6;
+text-align: center;
+color: var(--primery-color);
+}
+
+.tools-subtitle {
+font-weight: 500;
+font-size: 24px;
+line-height: 1.5;
+color: var(--subtitle-main-color);
+}
+
+.tools-name {
+font-size: 18px;
+line-height: 1.5;
+color: var(--tools-name-color);
+}
+
+.tools-description {
+font-size: 16px;
+line-height: 1.8;
+color: var(--primery-color);
+}
+
+.tools-link {
+border-radius: 15px;
+display: block;
+}
+.tools-link:hover, 
+.tools-link:focus {
+   background: rgba(40, 48, 54, 0.6);
+    backdrop-filter: blur(50px);
+}
+
+.tools-button {
+font-weight: 500;
+font-size: 20px;
+line-height: 1.5;
+color: var(--accent-color);
+background-color: transparent;
+border: 1px solid rgba(255, 255, 255, 0.1);
+border-radius: 8px;
+padding: 17px 38px;
+}
+
+.tools-button:hover,
+.tools-button:focus {
+  background-color: var(--accent-color);
+  color: var(--btn-color);
 }
