@@ -8,6 +8,7 @@
   --btn-color: #fdf5ff;
   --trust-color: rgba(255, 255, 255, 0.8);
   --trust-bgr: rgba(44, 53, 61, 0.2);
+  --comment-color: rgba(255, 253, 253, 0.78);
 }
 
 /* .trust {
@@ -163,4 +164,22 @@ a {
 .newcomer-btn:focus {
   background-color: var(--accent-color);
   color: var(--white-color);
+}
+.comment-name-user {
+  font-weight: 500;
+  font-size: 26px;
+  line-height: 1.5;
+  letter-spacing: 0.015em;
+  color: var(--comment-color);
+}
+.comment-user-profil {
+  font-size: 16px;
+  line-height: 1.5;
+  color: var(--primery-color);
+}
+.comment-feedback {
+  font-size: 14px;
+  line-height: 2.14;
+  letter-spacing: 0.015em;
+  color: var(--subtitle-main-color);
 }
