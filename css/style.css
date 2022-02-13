@@ -6,12 +6,15 @@
   --subtitle-main-color:rgba(255, 255, 255, 0.78);
   --tools-name-color: #FFA537;
   --btn-color: #fdf5ff;
+  --trust-color:rgba(255, 255, 255, 0.8);
+  --trust-bgr:rgba(44, 53, 61, 0.2);
+
 
 }
 
-.trust {
+/* .trust {
   background-color: black;
-}
+} */
 /* font-family: 'Poppins', sans-serif;
 font-family: 'Roboto', sans-serif; */
 body {
@@ -136,4 +139,18 @@ padding: 17px 38px;
 .tools-button:focus {
   background-color: var(--accent-color);
   color: var(--btn-color);
+}
+
+.trust-title{
+  font-weight: 500;
+font-size: 24px;
+line-height: 1.5;
+text-align: center;
+color: var(--trust-color);
+}
+
+.trust-conteiner{
+  background: var(--trust-bgr);
+backdrop-filter: blur(50px);
+border-radius: 25px;
 }
